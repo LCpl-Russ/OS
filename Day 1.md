@@ -1,2 +1,2 @@
-      # Day 1 Notes
-      ## Powershell Stuffs
+# Day 1 Notes
+## Powershell Stuffs
