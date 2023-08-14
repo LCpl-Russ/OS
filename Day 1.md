@@ -18,3 +18,5 @@
 - $start_time = get-date
 - $wc = New-bject system.net.webclient
 - $wc.DownloadFile($url, $ouput)
+##### PSSession
+- $session = New-PSSession -ComputerName file-server -credential andy.dwyer
