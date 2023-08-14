@@ -22,3 +22,4 @@
 - $session = New-PSSession -ComputerName file-server -credential andy.dwyer
 # Stack Number 10
 # IP 10.50.25.206
+### xfreerdp /u:andy.dwyer /v:10.50.25.206 /dynamic-resolution +glyph-cache +clipboard
