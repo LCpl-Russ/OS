@@ -9,3 +9,8 @@
 ##### ISE Profiles
 - Current User, Current Host
 - All Users, Current Host
+#### Remoting
+##### WSMAN
+- get-item WSMAN:\localhost\Client\TrustedHosts
+- set-item WSMAN:\localhost\Client\TrustedHosts -value "domain-control"
+- set-item WSMAN:\localhost\Client\TrustedHosts -value "file-server,domain-control"
