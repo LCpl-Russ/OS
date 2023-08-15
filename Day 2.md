@@ -5,6 +5,9 @@
 - connect to network.
 ## REG KEYS
 - HKLM: Local Machine
-- HKCR: 
+- HKCR: Current Root - everyime system boots load it into rom
 - HKCU: Current User - Symbolic Link with SID of Current User
-- HK: 
+## REG Commands
+- get-item
+- new-item
+- set-itemProperty
