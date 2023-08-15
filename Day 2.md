@@ -11,3 +11,5 @@
 - get-item
 - new-item
 - set-itemProperty
+### SID
+- get-localuser | select name, sid
