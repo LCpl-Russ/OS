@@ -1,3 +1,2 @@
-# Linux Shit
+# Linux Essentials
 ## BASH Wooooooo
-###### i tiny header -_-
