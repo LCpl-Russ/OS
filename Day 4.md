@@ -16,6 +16,7 @@ From this point onwards, the UEFI Boot Manager takes over and starts the Operati
 This is a simplified version of the Windows Boot Process from the kernel (ntoskrnl.exe) to the execution of LogonUi.exe (the process that prompts for user interaction). It is broken into five steps.
 1. Loading the Operating System Kernel
 2. Initializing the Kernel
-2. Starting Subsystems
+3. Starting Subsystems
 4. Starting Session 0
-9. Starting Session 1
+5. Starting Session 1
+## Starting Subsystems
