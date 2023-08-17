@@ -9,3 +9,13 @@ The partition contains code that starts the first stage of loading an Operating 
   - Windows 7 Service Pack 1 and newer uses bootmgr or New Technology Loader
 from this point the Boot Loader takes over and starts the Operating System
 ### UEFI Boot Manager
+UEFI does the same hardware checks as BIOS, but instead of using the MBR it reads an EFI Partition. The EFI Partition contains UEFI Boot Managers
+- Windows bootmgfw.efi or Windows Boot Manager
+From this point onwards, the UEFI Boot Manager takes over and starts the Operating System
+## Windows System Initialization
+This is a simplified version of the Windows Boot Process from the kernel (ntoskrnl.exe) to the execution of LogonUi.exe (the process that prompts for user interaction). It is broken into five steps.
+1. Loading the Operating System Kernel
+2. Initializing the Kernel
+3. Starting Subsystems
+4. Starting Session 0
+5. Starting Session 1
