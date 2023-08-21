@@ -1,6 +1,4 @@
 # Windows Process Vailidity
-## 
-
 How do we discover Normal, abnormal, and Hidden Processes and Services?
 ```
 - Get-Process SMSS,CSRSS,LSASS | Sort -Property Id
