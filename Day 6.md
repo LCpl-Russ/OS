@@ -19,10 +19,14 @@ Where do the system processes and services normally run from? (C:\Windows\System
 Are Priority Levels of processes important?
 ```
 - Get-Process | Select Name, Priorityclass
+```
+```
 - Tasklist /m
 ```
 How would malware use Schedule Task?
 ```
 - schtasks /query | more
-- Get-ScheduledTask | Select * | Select -First 5
 ```
+~~~
+- Get-ScheduledTask | Select * | Select -First 5
+~~~
