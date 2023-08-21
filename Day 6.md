@@ -12,6 +12,8 @@ Do boot processes have descriptions?
 Where do the system processes and services normally run from? (C:\Windows\System32)
 ```
 - Get-Process | Select Name, Id, Path
+```
+```
 - Get-Ciminstance Win32_service | Select Name, Processid, Pathname
 ```
 Are Priority Levels of processes important?
