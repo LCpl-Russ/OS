@@ -15,16 +15,16 @@ Get-Process | Select Name, Id, Path
 Get-Ciminstance Win32_service | Select Name, Processid, Pathname
 ```
 Are Priority Levels of processes important?
-``` bash
+``` pwsh
 Get-Process | Select Name, Priorityclass
 ```
-```json
+```pwsh
 Tasklist /m
 ```
 How would malware use Schedule Task?
-```
+```powershellise
 schtasks /query | more
 ```
-~~~
+~~~pwsh
 Get-ScheduledTask | Select * | Select -First 5
 ~~~
