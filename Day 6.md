@@ -22,7 +22,7 @@ Get-Process | Select Name, Priorityclass
 Tasklist /m
 ```
 How would malware use Schedule Task?
-```powershellise
+```powershell
 schtasks /query | more
 ```
 ~~~pwsh
