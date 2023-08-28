@@ -1,8 +1,8 @@
 # Active Directory
 Get a list of AD Commands Available
-'''
+``` powershell
 Get-Command -Module activedirectory
-'''
+```
 Get-ADFineGrainedPasswordPolicy -Filter {name -like "*"}
 
 Get-ADForest
